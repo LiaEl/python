@@ -1,10 +1,12 @@
+import sys
+
 l = []
 
 d = {}
 for i in range(1, 12):
     d[i] = [0, 0]
 
-with open('C:\\Users\\User\\Documents\\python\\data375.txt') as fi:
+with open(sys.argv[1]) as fi:
     for line in fi:
         b = line.strip().split()
         d[int(b[0])][0] += float(b[2])
