@@ -32,13 +32,13 @@
 d = int(input())
 
 c = []
-for i in range(d):
+for _ in range(d):
     c.append(input().lower())
 
 l = int(input())
 
 s = []
-for i in range(l):
+for _ in range(l):
     s += input().split()
 
 for i in s:
