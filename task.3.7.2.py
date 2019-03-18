@@ -1,3 +1,4 @@
+ #try to open with nano
 a = [i for i in input()]
 b = [i for i in input()]
 
