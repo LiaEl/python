@@ -21,6 +21,7 @@ def isPrime(n):
         else:
             arr.append(i)
 
+# нижняя часть кода просто для красивого вывода, опционально
     print(arr[0], end='\t')
     for i in range(1, len(arr)):
         if i % 6 != 0:
@@ -31,5 +32,5 @@ def isPrime(n):
     print()
 
 
-isPrime(1000)
+isPrime(100)
 
