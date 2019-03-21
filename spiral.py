@@ -11,7 +11,6 @@ for i in range(1, n ** 2 + 1):
     if 0 <= next_x < n and 0 <= next_y < n and spiral[next_x][next_y] == None: # check next cell is exist and empty
         x += step_x
         y += step_y
-
     else:
         step_x, step_y = step_y, -step_x # change direction
         x += step_x
