@@ -15,7 +15,7 @@ def decor(fn):
 def isPrime(n):
     arr = []
     for i in range(2, n + 1):
-        for j in range(2, i):
+        for j in arr:
             if i % j == 0:
                 break
         else:
@@ -31,5 +31,5 @@ def isPrime(n):
     print()
 
 
-isPrime(20)
+isPrime(1000)
 
